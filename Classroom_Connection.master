@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Classroom_Connection.master.cs" Inherits="Classroom_Connection" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Classroom_Connection.master.cs" Inherits="Classroom_Connection" %>
 
 <!DOCTYPE html>
 
@@ -107,14 +107,14 @@
 
         <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" BorderColor="#9900CC" BorderStyle="Double" ForeColor="White" Font-Bold="True" OnMenuItemClick="Menu1_MenuItemClick" Height="60px">
             <Items>
-                <asp:MenuItem Text="Home" Value="About Us"></asp:MenuItem>
-                <asp:MenuItem Text="About Us" Value="About Us"></asp:MenuItem>
-                <asp:MenuItem Text="Products" Value="Products"></asp:MenuItem>
-                <asp:MenuItem Text="Your Account" Value="Your Account"></asp:MenuItem>
-                <asp:MenuItem Text="Contact Us" Value="Contact Us"></asp:MenuItem>
-                <asp:MenuItem Text="Admin" Value="Admin"></asp:MenuItem>
-                <asp:MenuItem Text="Shopping Cart" Value="Shopping Cart"></asp:MenuItem>
-                <asp:MenuItem Text="Specials/Promotions" Value="Specials/Promotions"></asp:MenuItem>
+                <asp:MenuItem Text="Home" Value="About Us" NavigateUrl="CC_Home.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="About Us" Value="About Us" NavigateUrl="AboutUs.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Products" Value="Products" NavigateUrl="Products.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Your Account" Value="Your Account" NavigateUrl="YourAccountLogin.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Contact Us" Value="Contact Us" NavigateUrl="ContactUs.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Admin" Value="Admin" NavigateUrl="AdminLogin.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Shopping Cart" Value="Shopping Cart" NavigateUrl="YourAccountLogin.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Specials/Promotions" Value="Specials/Promotions" NavigateUrl="Promotions.aspx"></asp:MenuItem>
             </Items>
             <StaticMenuItemStyle HorizontalPadding="20px" VerticalPadding="10px" />
         </asp:Menu>
