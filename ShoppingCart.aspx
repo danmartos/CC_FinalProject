@@ -40,8 +40,9 @@
     </p>
     <p style="font-family: Arial, Helvetica, sans-serif; font-size: large; font-weight: bold; color: #003300; text-align: center; width: 1266px;">
     _______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
-<p style="font-family: Arial, Helvetica, sans-serif; font-size: large; font-weight: bold; color: #003300; text-align: center; width: 1266px;">
-    &nbsp;</p>
+<p style="font-family: Arial, Helvetica, sans-serif; font-size: large; font-weight: bold; color: #003300; text-align: left; width: 1266px;">
+    <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+    </p>
 <p style="font-family: Arial, Helvetica, sans-serif; font-size: large; font-weight: bold; color: #003300; text-align: center; width: 1266px;">
     &nbsp;</p>
 <p style="font-family: Arial, Helvetica, sans-serif; font-size: large; font-weight: bold; color: #003300; text-align: center; width: 1266px;">

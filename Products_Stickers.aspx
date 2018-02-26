@@ -40,7 +40,7 @@
 &nbsp;&nbsp; $2.49&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Qty&nbsp;&nbsp;
     <asp:TextBox ID="TextBox2" runat="server" Width="20px"></asp:TextBox>
 &nbsp;&nbsp;
-    <asp:Button ID="Button2" runat="server" Text="Add To Cart" />
+    <asp:Button ID="Button2" runat="server" Text="Add To Cart" OnClick="Button2_Click" />
     <br />
     <br />
     Make your notes and plans stand out by adding colorful planner stickers. These cheerful stickers will help you mark a deadline, remember a special day, or give you a little inspiration. They are the perfect addition to Teacher Created Resources lesson planners. 120 stickers per pack. 20 designs.<br />
@@ -103,7 +103,7 @@
     <br />
     <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:Button ID="Button7" runat="server" BackColor="#339933" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="31px" Text="Checkout" Width="100px" />
+    <asp:Button ID="Button7" runat="server" BackColor="#339933" Font-Bold="True" Font-Size="Medium" ForeColor="White" Height="31px" Text="Checkout" Width="100px" OnClick="Button7_Click" />
     <br />
 </asp:Content>
 
